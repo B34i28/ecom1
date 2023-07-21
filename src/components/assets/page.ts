@@ -1,0 +1,1 @@
+export {default as heroimg} from "./images/heroimg.webp";
