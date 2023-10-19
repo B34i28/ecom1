@@ -1,8 +1,10 @@
+"use client"
 import Navebar from '@/components/view/Navebar/page'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Maven_Pro } from 'next/font/google'
 import Wrapper from '@/components/shared/wapper/page'
+import Footer from '@/components/view/Footer/page'
 
 const inter = Maven_Pro({ subsets: ['latin'] ,
 weight : ["400" ,"500","600","700","800","900"]
@@ -23,7 +25,10 @@ export default function RootLayout({
       <body className={inter.className}>
         <Wrapper>
         <Navebar/>
+        <div className='min-h-screen'>
         {children}
+        </div>
+        <Footer/>
         </Wrapper>
         </body>
     </html>

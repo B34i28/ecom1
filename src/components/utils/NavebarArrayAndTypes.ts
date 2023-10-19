@@ -8,27 +8,32 @@ export interface NavebarItemType {
 export const NavebarArray: Array<NavebarItemType> = [
     {
         label : "Female",
-        href : "/female",
+        href : "/female/Female",
         isDorpDown : true,
         dropDownData : [
             {
                 label : "Dresses",
-                href : "/female/dresses",
+                href : "/female/Dresse",
                 isDorpDown : false,
             },
             {
-                label : "Shirts",
-                href : "/female/shirts",
+                label : "T-Shirts",
+                href : "/female/T-shirt",
                 isDorpDown : false,
             },
             {
                 label : "Pents",
-                href : "/female/pents",
+                href : "/female/Pent",
                 isDorpDown : false,
             },
             {
                 label : "Jackets",
-                href : "/female/jackets",
+                href : "/female/Jacket",
+                isDorpDown : false,
+            },
+            {
+                label : "Sweaters",
+                href : "/female/Sweater",
                 isDorpDown : false,
             }
         ]
@@ -36,27 +41,17 @@ export const NavebarArray: Array<NavebarItemType> = [
     },
     {
         label : "Male",
-        href : "/male",
+        href : "/male/Male",
         isDorpDown : true,
         dropDownData : [
             {
-                label : "Shorts",
-                href : "/male/Shorts",
-                isDorpDown : false,
-            },
-            {
-                label : "Shirts",
-                href : "/male/shirts",
-                isDorpDown : false,
-            },
-            {
-                label : "Pents",
-                href : "/male/pents",
+                label : "Sweaters",
+                href : "/male/Sweater",
                 isDorpDown : false,
             },
             {
                 label : "Jackets",
-                href : "/male/jackets",
+                href : "/male/Jacket",
                 isDorpDown : false,
             }
         ]
@@ -70,7 +65,7 @@ export const NavebarArray: Array<NavebarItemType> = [
     },
     {
         label : "All Product",
-        href : "/allproduct",
+        href : "/products",
         isDorpDown : false,
 
     }
