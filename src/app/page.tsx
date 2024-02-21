@@ -4,8 +4,6 @@ import Hero from "@/components/view/Hero/page";
 import Jewellery from "@/components/view/Jewellery/page";
 import ProductType from "@/components/view/ProductType/page";
 import ProductsR from "@/components/view/ProductsR/page";
-import ProductDetail from "@/components/view/ProductDetail/page";
-import { data } from "autoprefixer";
 
 async function fetchAllProductsData() {
   let res = await fetch(`https://${process.env.NEXT_PUBLIC_SANITY_PROJECT_ID}.api.sanity.io/v2021-06-07/data/query/production?query=*[_type == "products"]`, {
